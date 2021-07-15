@@ -10,12 +10,6 @@ public class Pet {
    public Pet() {
    }
 
-   public Pet(PetType petType, Owner owner, LocalDate birthDate) {
-      this.petType = petType;
-      this.owner = owner;
-      this.birthDate = birthDate;
-   }
-
    public PetType getPetType() {
       return petType;
    }
